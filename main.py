@@ -14,3 +14,11 @@ async def empleado():
             "edad": "27",
             "email": "j.doe@panama.com"
            }
+
+@app.get('/curso')
+async def curso():
+    return {"id": "CR09878",
+            "nombre": "CURSO PYTHON",
+            "facilitador": "JHON DOE",
+            "horas": "5"
+           }
